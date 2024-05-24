@@ -1,0 +1,157 @@
+
+@font-face {
+  font-family: 'titulo video';
+  src: url('fontes/Afterglow-Regular.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'oldschool' ;
+  src: url('fontes/Brannboll.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family:'assinatura' ;
+  src: url('fontes/assinatura.ttf') format(truetype);
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gabriela&family=Open+Sans:wght@300&family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@1,500&family=Rubik+Dirt&family=Rubik+Distressed&display=swap');
+
+body{
+  margin-top: 0px;
+  margin-right: 0px;
+  overflow-x: hidden;
+  background-color:rgb(218, 214, 213);
+}
+
+.mane{
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+        transform: translate(-2vh);
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        border-right:1.5px solid rgb(206, 199, 199); 
+      }
+      li last-child {
+        border-right: none;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 18px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+    
+    
+      
+  .destaque{
+    background-color: rgb(99, 80, 61)
+  }
+p{
+    color: rgb(85 77 53);
+    font-size: 20px;
+    width: 1360px;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Gabriela', serif;
+    line-height: 2;
+    margin-bottom: 0.50rem;
+    font-style: italic;
+    
+}
+img{
+  margin-left: 300px;
+  
+}
+h2{
+  color: rgb(85 77 53);
+    width: 1450px;
+    margin: 20px;
+    font-family: 'oldschool', Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-size: 35px;
+    
+  }
+table{
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 45%;
+
+}th,td{
+
+    border: 2px solid rgb(199, 181, 177);
+    text-align: left;
+    padding: 8px;
+    align-items: center;
+}
+tr:nth-child(even) {
+    background-color: rgba(211, 180, 151, 0.979);
+  }
+  .banner{
+    width: 105%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transform: translate(-2vh);
+}
+.banner video{
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+.titulo{
+    position: absolute;
+    top: auto;
+    padding: 22%;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'titulo video', Helvetica, sans-serif;
+}
+.formatacao{
+  font-family: 'PT Serif', serif;
+  font-size: 10px ;
+  margin-left: 300px;
+
+}
+input,label{
+font-size: 20px;
+font-family: 'Gabriela', serif;
+color: rgb(85 77 53);
+text-align: justify;
+font-style: italic;
+line-height: 1.5;
+
+}
